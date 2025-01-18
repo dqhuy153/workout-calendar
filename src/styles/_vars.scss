@@ -1,0 +1,22 @@
+// custom root variables for plain css files, tailwind
+:root {
+  --primary: #5a57cb;
+  --secondary: #a0a8b1;
+  --background: #f3f5f8;
+
+  --button-default: #a0a8b1;
+
+  --text-default: #000000;
+  --text-title: #6a7988;
+  --text-title-foreground: #728096;
+  --text-subtitle: #95a6b7;
+  --text-subtitle-bold: #919cad;
+}
+
+// custom root variables for scss files
+$primary: var(--primary);
+$secondary: var(--secondary);
+$background: var(--background);
+$text-default: var(--text-default);
+$text-secondary: var(--text-secondary);
+//...
